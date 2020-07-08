@@ -1,0 +1,16 @@
+{
+  "name":"Concrete",
+  "machine":"Constructor",
+  "components":{
+    "Limestone":3.0
+  },
+  "consumptionRates":{
+    "Limestone":45.0
+  },
+  "products":{
+    "Concrete":1.0
+  },
+  "productionRates":{
+    "Concrete":15.0
+  }
+}

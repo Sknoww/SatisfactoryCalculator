@@ -1,0 +1,38 @@
+{
+  "name": "copper",
+  "outputs": ["copper ingot"],
+  "recipes": {
+    "copper ingot": {
+      "building": "smelter",
+      "alternate": false,
+      "consumption": {
+        "copper": 30
+      },
+      "production": {
+        "copper ingot": 30
+      }
+    },
+    "copper alloy ingot": {
+      "building": "foundry",
+      "alternate": true,
+      "consumption": {
+        "copper": 50,
+        "iron": 25
+      },
+      "production": {
+        "copper ingot": 100
+      }
+    },
+    "pure copper ingot": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": {
+        "copper": 15,
+        "water": 10
+      },
+      "production": {
+        "copper ingot": 37.5
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name":"Screw",
+  "machine":"Constructor",
+  "components":{
+    "Iron Rod":1.0
+  },
+  "consumptionRates":{
+    "Iron Rod":10.0
+  },
+  "products":{
+    "Screw":4.0
+  },
+  "productionRates":{
+    "Screw":40.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name":"Heat Sink",
+  "machine":"Assembler",
+  "components":{
+    "Alclad Aluminum Sheet":8.0,
+    "Rubber":14.0
+  },
+  "consumptionRates":{
+    "Alclad Aluminum Sheet":40.0,
+    "Rubber":70.0
+  },
+  "products":{
+    "Heat Sink":2.0
+  },
+  "productionRates":{
+    "Heat Sink":10.0
+  }
+}

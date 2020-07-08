@@ -1,0 +1,16 @@
+{
+  "name":"Quartz Crystal",
+  "machine":"Constructor",
+  "components":{
+    "Raw Quartz":5.0
+  },
+  "consumptionRates":{
+    "Raw Quartz":37.5
+  },
+  "products":{
+    "Quartz Crystal":3.0
+  },
+  "productionRates":{
+    "Quartz Crystal":22.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name":"Rubber",
+  "machine":"Refinery",
+  "components":{
+    "Crude Oil":3.0
+  },
+  "consumptionRates":{
+    "Crude Oil":30.0
+  },
+  "products":{
+    "Rubber":2.0,
+    "Heavy Oil Residue":2.0
+  },
+  "productionRates":{
+    "Rubber":20.0,
+    "Heavy Oil Residue":20.0
+  }
+}

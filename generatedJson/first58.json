@@ -1,0 +1,16 @@
+{
+  "name":"Steel Beam",
+  "machine":"Constructor",
+  "components":{
+    "Steel Ingot":4.0
+  },
+  "consumptionRates":{
+    "Steel Ingot":60.0
+  },
+  "products":{
+    "Steel Beam":1.0
+  },
+  "productionRates":{
+    "Steel Beam":15.0
+  }
+}

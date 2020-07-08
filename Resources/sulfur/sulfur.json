@@ -1,0 +1,36 @@
+{
+  "name": "sulfur",
+  "outputs": ["battery", "black powder", "compacted coal", "encased uranium "],
+  "recipes": {
+    "battery": {
+      "building": "manufacturer",
+      "alternate": false,
+      "consumption": 37.5
+    },
+    "black powder": {
+      "building": "assembler",
+      "alternate": false,
+      "consumption": 15
+    },
+    "sulfuric acid": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": 50
+    },
+    "gun powder": {
+      "building": "assembler",
+      "alternate": true,
+      "consumption": 7.5
+    },
+    "compacted coal": {
+      "building": "assembler",
+      "alternate": true,
+      "consumption": 25
+    },
+    "infused uranium cell": {
+      "building": "manufacturer",
+      "alternate": true,
+      "consumption": 22.5
+    }
+  }
+}

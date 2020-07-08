@@ -1,0 +1,22 @@
+{
+  "name":"Battery",
+  "machine":"Manufacturer",
+  "components":{
+    "Alclad Aluminum Sheet":8.0,
+    "Wire":16.0,
+    "Sulfur":20.0,
+    "Plastic":8.0
+  },
+  "consumptionRates":{
+    "Alclad Aluminum Sheet":15.0,
+    "Wire":30.0,
+    "Sulfur":37.5,
+    "Plastic":15.0
+  },
+  "products":{
+    "Battery":3.0
+  },
+  "productionRates":{
+    "Battery":5.625
+  }
+}

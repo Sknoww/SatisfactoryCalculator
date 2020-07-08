@@ -1,0 +1,16 @@
+{
+  "name":"Wire",
+  "machine":"Constructor",
+  "components":{
+    "Copper Ingot":1.0
+  },
+  "consumptionRates":{
+    "Copper Ingot":12.0
+  },
+  "products":{
+    "Wire":2.0
+  },
+  "productionRates":{
+    "Wire":30.0
+  }
+}

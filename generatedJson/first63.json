@@ -1,0 +1,22 @@
+{
+  "name":"Turbo Motor",
+  "machine":"Manufacturer",
+  "components":{
+    "Heat Sink":4.0,
+    "Radio Control Unit":2.0,
+    "Motor":4.0,
+    "Rubber":24.0
+  },
+  "consumptionRates":{
+    "Heat Sink":7.5,
+    "Radio Control Unit":3.75,
+    "Motor":7.5,
+    "Rubber":45.0
+  },
+  "products":{
+    "Turbo Motor":1.0
+  },
+  "productionRates":{
+    "Turbo Motor":1.875
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name":"Alclad Aluminum Sheet",
+  "machine":"Assembler",
+  "components":{
+    "Aluminum Ingot":8.0,
+    "Copper Ingot":3.0
+  },
+  "consumptionRates":{
+    "Aluminum Ingot":60.0,
+    "Copper Ingot":22.5
+  },
+  "products":{
+    "Alclad Aluminum Sheet":4.0
+  },
+  "productionRates":{
+    "Alclad Aluminum Sheet":30.0
+  }
+}

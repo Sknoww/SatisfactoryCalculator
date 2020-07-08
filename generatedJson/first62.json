@@ -1,0 +1,22 @@
+{
+  "name":"Supercomputer",
+  "machine":"Manufacturer",
+  "components":{
+    "Computer":2.0,
+    "A.I. Limiter":2.0,
+    "High-Speed Connector":3.0,
+    "Plastic":28.0
+  },
+  "consumptionRates":{
+    "Computer":3.75,
+    "A.I. Limiter":3.75,
+    "High-Speed Connector":5.625,
+    "Plastic":52.5
+  },
+  "products":{
+    "Supercomputer":1.0
+  },
+  "productionRates":{
+    "Supercomputer":1.875
+  }
+}

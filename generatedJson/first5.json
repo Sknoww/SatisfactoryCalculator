@@ -1,0 +1,20 @@
+{
+  "name":"Aluminum Scrap",
+  "machine":"Refinery",
+  "components":{
+    "Alumina Solution":4.0,
+    "Petroleum Coke":1.0
+  },
+  "consumptionRates":{
+    "Alumina Solution":240.0,
+    "Petroleum Coke":60.0
+  },
+  "products":{
+    "Aluminum Scrap":6.0,
+    "Water":1.0
+  },
+  "productionRates":{
+    "Aluminum Scrap":360.0,
+    "Water":60.0
+  }
+}

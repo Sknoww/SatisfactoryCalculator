@@ -1,0 +1,17 @@
+{
+  "name": "bauxite",
+  "recipes": {
+    "aluminum solution": {
+      "building": "refinery",
+      "alternate": false,
+      "consumption": {
+        "bauxite": 70,
+        "water": 100
+      },
+      "production": {
+        "aluminum solution": 80,
+        "silica": 20
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name":"Copper Ingot",
+  "machine":"Smelter",
+  "components":{
+    "Copper Ore":1.0
+  },
+  "consumptionRates":{
+    "Copper Ore":30.0
+  },
+  "products":{
+    "Copper Ingot":1.0
+  },
+  "productionRates":{
+    "Copper Ingot":30.0
+  }
+}

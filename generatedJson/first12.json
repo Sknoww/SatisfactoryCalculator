@@ -1,0 +1,22 @@
+{
+  "name":"Computer",
+  "machine":"Manufacturer",
+  "components":{
+    "Circuit Board":10.0,
+    "Cable":9.0,
+    "Plastic":18.0,
+    "Screw":52.0
+  },
+  "consumptionRates":{
+    "Circuit Board":25.0,
+    "Cable":22.5,
+    "Plastic":45.0,
+    "Screw":130.0
+  },
+  "products":{
+    "Computer":1.0
+  },
+  "productionRates":{
+    "Computer":2.5
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name":"Silica",
+  "machine":"Constructor",
+  "components":{
+    "Raw Quartz":3.0
+  },
+  "consumptionRates":{
+    "Raw Quartz":22.5
+  },
+  "products":{
+    "Silica":5.0
+  },
+  "productionRates":{
+    "Silica":37.5
+  }
+}

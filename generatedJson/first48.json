@@ -1,0 +1,16 @@
+{
+  "name":"Quickwire",
+  "machine":"Constructor",
+  "components":{
+    "Caterium Ingot":1.0
+  },
+  "consumptionRates":{
+    "Caterium Ingot":12.0
+  },
+  "products":{
+    "Quickwire":5.0
+  },
+  "productionRates":{
+    "Quickwire":60.0
+  }
+}

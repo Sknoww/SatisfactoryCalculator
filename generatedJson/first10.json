@@ -1,0 +1,16 @@
+{
+  "name":"Caterium Ingot",
+  "machine":"Smelter",
+  "components":{
+    "Caterium Ore":3.0
+  },
+  "consumptionRates":{
+    "Caterium Ore":45.0
+  },
+  "products":{
+    "Caterium Ingot":1.0
+  },
+  "productionRates":{
+    "Caterium Ingot":15.0
+  }
+}

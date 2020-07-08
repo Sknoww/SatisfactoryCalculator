@@ -1,0 +1,18 @@
+{
+  "name":"A.I. Limiter",
+  "machine":"Assembler",
+  "components":{
+    "Copper Sheet":5,
+    "Quickwire":20
+  },
+  "consumptionRates":{
+    "Copper Sheet":25,
+    "Quickwire":100
+  },
+  "products":{
+    "A.I. Limiter":1
+  },
+  "productionRates":{
+    "A.I. Limiter":5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name":"Rifle Cartridge",
+  "machine":"Manufacturer",
+  "components":{
+    "Beacon":1.0,
+    "Steel Pipe":10.0,
+    "Black Powder":10.0,
+    "Rubber":10.0
+  },
+  "consumptionRates":{
+    "Beacon":3.0,
+    "Steel Pipe":30.0,
+    "Black Powder":30.0,
+    "Rubber":30.0
+  },
+  "products":{
+    "Rifle Cartridge":5.0
+  },
+  "productionRates":{
+    "Rifle Cartridge":15.0
+  }
+}

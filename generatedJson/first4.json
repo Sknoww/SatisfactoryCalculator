@@ -1,0 +1,18 @@
+{
+  "name":"Aluminum Ingot",
+  "machine":"Foundry",
+  "components":{
+    "Aluminum Scrap":12.0,
+    "Silica":7.0
+  },
+  "consumptionRates":{
+    "Aluminum Scrap":240.0,
+    "Silica":140.0
+  },
+  "products":{
+    "Aluminum Ingot":4.0
+  },
+  "productionRates":{
+    "Aluminum Ingot":80.0
+  }
+}

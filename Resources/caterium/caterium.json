@@ -1,0 +1,27 @@
+{
+  "name": "caterium",
+  "outputs": ["caterium ingot"],
+  "recipes": {
+    "caterium ingot": {
+      "building": "smelter",
+      "alternate": false,
+      "consumption": {
+        "caterium": 45
+      },
+      "production": {
+        "caterium ingot": 15
+      }
+    },
+    "pure caterium ingot": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": {
+        "caterium": 24,
+        "water": 24
+      },
+      "production": {
+        "caterium ingot": 12
+      }
+    }
+  }
+}

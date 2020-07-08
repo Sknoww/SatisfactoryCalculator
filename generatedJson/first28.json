@@ -1,0 +1,16 @@
+{
+  "name":"Iron Ingot",
+  "machine":"Smelter",
+  "components":{
+    "Iron Ore":1.0
+  },
+  "consumptionRates":{
+    "Iron Ore":30.0
+  },
+  "products":{
+    "Iron Ingot":1.0
+  },
+  "productionRates":{
+    "Iron Ingot":30.0
+  }
+}
