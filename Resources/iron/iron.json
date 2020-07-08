@@ -1,0 +1,38 @@
+{
+  "name": "iron",
+  "outputs": ["iron ingot"],
+  "recipes": {
+    "iron ingot": {
+      "building": "smelter",
+      "alternate": false,
+      "consumption": {
+        "iron": 30
+      },
+      "production": {
+        "iron ingot": 30
+      }
+    },
+    "iron alloy ingot": {
+      "building": "foundry",
+      "alternate": true,
+      "consumption": {
+        "iron": 20,
+        "copper": 20
+      },
+      "production": {
+        "iron ingot": 50
+      }
+    },
+    "pure iron ingot": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": {
+        "iron": 35,
+        "water": 20
+      },
+      "production": {
+        "iron ingot": 65
+      }
+    }
+  }
+}

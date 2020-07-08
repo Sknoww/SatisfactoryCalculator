@@ -1,0 +1,16 @@
+{
+  "name":"Copper Sheet",
+  "machine":"Constructor",
+  "components":{
+    "Copper Ingot":2.0
+  },
+  "consumptionRates":{
+    "Copper Ingot":20.0
+  },
+  "products":{
+    "Copper Sheet":1.0
+  },
+  "productionRates":{
+    "Copper Sheet":10.0
+  }
+}

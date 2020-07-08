@@ -1,0 +1,16 @@
+{
+  "name":"Empty Canister",
+  "machine":"Constructor",
+  "components":{
+    "Plastic":2.0
+  },
+  "consumptionRates":{
+    "Plastic":30.0
+  },
+  "products":{
+    "Empty Canister":4.0
+  },
+  "productionRates":{
+    "Empty Canister":60.0
+  }
+}

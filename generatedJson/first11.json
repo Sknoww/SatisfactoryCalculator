@@ -1,0 +1,18 @@
+{
+  "name":"Circuit Board",
+  "machine":"Assembler",
+  "components":{
+    "Copper Sheet":2.0,
+    "Plastic":4.0
+  },
+  "consumptionRates":{
+    "Copper Sheet":15.0,
+    "Plastic":30.0
+  },
+  "products":{
+    "Circuit Board":1.0
+  },
+  "productionRates":{
+    "Circuit Board":7.5
+  }
+}

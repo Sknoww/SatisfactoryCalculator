@@ -1,0 +1,20 @@
+{
+  "name":"Modular Frame",
+  "machine":"Assembler",
+  "components":{
+    "Reinforced Iron Plate":3.0,
+    "Iron Rod":12.0
+  },
+  "consumptionRates":{
+    "Reinforced Iron Plate":3.0,
+    "Iron Rod":12.0
+  },
+  "products":{
+    "Modular Frame":2.0,
+    "":0.0
+  },
+  "productionRates":{
+    "Modular Frame":2.0,
+    "":0.0
+  }
+}

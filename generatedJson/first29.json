@@ -1,0 +1,16 @@
+{
+  "name":"Iron Plate",
+  "machine":"Constructor",
+  "components":{
+    "Iron Ingot":3.0
+  },
+  "consumptionRates":{
+    "Iron Ingot":30.0
+  },
+  "products":{
+    "Iron Plate":2.0
+  },
+  "productionRates":{
+    "Iron Plate":20.0
+  }
+}

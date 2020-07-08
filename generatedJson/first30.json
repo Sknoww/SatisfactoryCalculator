@@ -1,0 +1,16 @@
+{
+  "name":"Iron Rod",
+  "machine":"Constructor",
+  "components":{
+    "Iron Ingot":1.0
+  },
+  "consumptionRates":{
+    "Iron Ingot":15.0
+  },
+  "products":{
+    "Iron Rod":1.0
+  },
+  "productionRates":{
+    "Iron Rod":15.0
+  }
+}

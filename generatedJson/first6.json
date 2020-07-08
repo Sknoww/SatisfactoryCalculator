@@ -1,0 +1,18 @@
+{
+  "name":"Automated Wiring",
+  "machine":"Assembler",
+  "components":{
+    "Stator":1.0,
+    "Cable":20.0
+  },
+  "consumptionRates":{
+    "Stator":2.5,
+    "Cable":50.0
+  },
+  "products":{
+    "Automated Wiring":1.0
+  },
+  "productionRates":{
+    "Automated Wiring":2.5
+  }
+}

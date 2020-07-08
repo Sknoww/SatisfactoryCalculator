@@ -1,0 +1,20 @@
+{
+  "name":"Uranium Pellet",
+  "machine":"Refinery",
+  "components":{
+    "Uranium":5.0,
+    "Sulfuric Acid":8.0
+  },
+  "consumptionRates":{
+    "Uranium":50.0,
+    "Sulfuric Acid":80.0
+  },
+  "products":{
+    "Uranium Pellet":5.0,
+    "Sulfuric Acid":2.0
+  },
+  "productionRates":{
+    "Uranium Pellet":50.0,
+    "Sulfuric Acid":20.0
+  }
+}

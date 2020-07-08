@@ -1,0 +1,18 @@
+{
+  "name":"Packaged Fuel",
+  "machine":"Refinery",
+  "components":{
+    "Fuel":2.0,
+    "Empty Canister":2.0
+  },
+  "consumptionRates":{
+    "Fuel":40.0,
+    "Empty Canister":40.0
+  },
+  "products":{
+    "Packaged Fuel":2.0
+  },
+  "productionRates":{
+    "Packaged Fuel":40.0
+  }
+}

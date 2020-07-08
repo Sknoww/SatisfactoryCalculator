@@ -1,0 +1,48 @@
+{
+  "name": "quartz",
+  "outputs": ["quartz crystal", "silica"],
+  "recipes": {
+    "quartz crystal": {
+      "building": "constructor",
+      "alternate": false,
+      "consumption": {
+        "quartz": 37.5
+      },
+      "production": {
+        "quartz crystal": 22.5
+      }
+    },
+    "silica": {
+      "building": "constructor",
+      "alternate": false,
+      "consumption": {
+        "quartz": 22.5
+      },
+      "production": {
+        "silica": 37.5
+      }
+    },
+    "pure quartz crystal": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": {
+        "quartz": 67.5,
+        "water": 37.5
+      },
+      "production": {
+        "quartz crystal": 52.5
+      }
+    },
+    "cheap silica": {
+      "building": "assembler",
+      "alternate": true,
+      "consumption": {
+        "quartz": 11.25,
+        "limestone": 18.75
+      },
+      "production": {
+        "silica": 26.25
+      }
+    }
+  }
+}

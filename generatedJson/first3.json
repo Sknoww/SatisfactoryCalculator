@@ -1,0 +1,20 @@
+{
+  "name":"Alumina Solution",
+  "machine":"Refinery",
+  "components":{
+    "Bauxite":7.0,
+    "Water":10.0
+  },
+  "consumptionRates":{
+    "Bauxite":70.0,
+    "Water":100.0
+  },
+  "products":{
+    "Alumina Solution":8.0,
+    "Silica":2.0
+  },
+  "productionRates":{
+    "Alumina Solution":80.0,
+    "Silica":20.0
+  }
+}

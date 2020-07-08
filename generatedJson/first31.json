@@ -1,0 +1,18 @@
+{
+  "name":"Liquid Biofuel",
+  "machine":"Refinery",
+  "components":{
+    "Solid Biofuel":6.0,
+    "Water":3.0
+  },
+  "consumptionRates":{
+    "Solid Biofuel":90.0,
+    "Water":45.0
+  },
+  "products":{
+    "Liquid Biofuel":4.0
+  },
+  "productionRates":{
+    "Liquid Biofuel":60.0
+  }
+}

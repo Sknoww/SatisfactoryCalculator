@@ -1,0 +1,18 @@
+{
+  "name":"Smart Plating",
+  "machine":"Assembler",
+  "components":{
+    "Reinforced Iron Plate":1.0,
+    "Rotor":1.0
+  },
+  "consumptionRates":{
+    "Reinforced Iron Plate":2.0,
+    "Rotor":2.0
+  },
+  "products":{
+    "Smart Plating":1.0
+  },
+  "productionRates":{
+    "Smart Plating":2.0
+  }
+}

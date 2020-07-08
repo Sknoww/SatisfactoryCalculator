@@ -1,0 +1,18 @@
+{
+  "name":"Residual Plastic",
+  "machine":"Refinery",
+  "components":{
+    "Polymer Resin":6.0,
+    "Water":2.0
+  },
+  "consumptionRates":{
+    "Polymer Resin":60.0,
+    "Water":20.0
+  },
+  "products":{
+    "Residual Plastic":2.0
+  },
+  "productionRates":{
+    "Residual Plastic":20.0
+  }
+}

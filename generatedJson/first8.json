@@ -1,0 +1,18 @@
+{
+  "name":"Black Powder",
+  "machine":"Assembler",
+  "components":{
+    "Coal":1.0,
+    "Sulfur":2.0
+  },
+  "consumptionRates":{
+    "Coal":7.5,
+    "Sulfur":15.0
+  },
+  "products":{
+    "Black Powder":1.0
+  },
+  "productionRates":{
+    "Black Powder":7.5
+  }
+}

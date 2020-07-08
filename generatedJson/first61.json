@@ -1,0 +1,18 @@
+{
+  "name":"Sulfuric Acid",
+  "machine":"Refinery",
+  "components":{
+    "Sulfur":5.0,
+    "Water":5.0
+  },
+  "consumptionRates":{
+    "Sulfur":50.0,
+    "Water":50.0
+  },
+  "products":{
+    "Sulfuric Acid":10.0
+  },
+  "productionRates":{
+    "Sulfuric Acid":100.0
+  }
+}

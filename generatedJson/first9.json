@@ -1,0 +1,16 @@
+{
+  "name":"Cable",
+  "machine":"Constructor",
+  "components":{
+    "Wire":2.0
+  },
+  "consumptionRates":{
+    "Wire":60.0
+  },
+  "products":{
+    "Cable":1.0
+  },
+  "productionRates":{
+    "Cable":30.0
+  }
+}

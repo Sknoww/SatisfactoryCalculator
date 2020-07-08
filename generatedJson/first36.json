@@ -1,0 +1,20 @@
+{
+  "name":"Nuclear Fuel Rod",
+  "machine":"Manufacturer",
+  "components":{
+    "Encased Uranium Cell":25.0,
+    "Encased Industrial Beam":3.0,
+    "Electromagnetic Control Rod":5.0
+  },
+  "consumptionRates":{
+    "Encased Uranium Cell":10.0,
+    "Encased Industrial Beam":1.2,
+    "Electromagnetic Control Rod":2.0
+  },
+  "products":{
+    "Nuclear Fuel Rod":1.0
+  },
+  "productionRates":{
+    "Nuclear Fuel Rod":0.4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name":"Plastic",
+  "machine":"Refinery",
+  "components":{
+    "Crude Oil":3.0
+  },
+  "consumptionRates":{
+    "Crude Oil":30.0
+  },
+  "products":{
+    "Plastic":2.0,
+    "Heavy Oil Residue":1.0
+  },
+  "productionRates":{
+    "Plastic":20.0,
+    "Heavy Oil Residue":10.0
+  }
+}

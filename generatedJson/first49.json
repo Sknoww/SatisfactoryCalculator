@@ -1,0 +1,22 @@
+{
+  "name":"Radio Control Unit",
+  "machine":"Manufacturer",
+  "components":{
+    "Heat Sink":4.0,
+    "Rubber":16.0,
+    "Crystal Oscillator":1.0,
+    "Computer":1.0
+  },
+  "consumptionRates":{
+    "Heat Sink":10.0,
+    "Rubber":40.0,
+    "Crystal Oscillator":2.5,
+    "Computer":2.5
+  },
+  "products":{
+    "Radio Control Unit":1.0
+  },
+  "productionRates":{
+    "Radio Control Unit":2.5
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "overclock multipliers": [1, 1.5, 2, 2.5],
+  "minerRates": {
+    "mk1": {
+      "impure": 30,
+      "normal": 60,
+      "pure": 120
+    },
+    "mk2": {
+      "impure": 60,
+      "normal": 120,
+      "pure": 240
+    },
+    "mk3": {
+      "impure": 120,
+      "normal": 240,
+      "pure": 480
+    }
+  },
+  "conveyor belt speeds": {
+    "mk1": 60,
+    "mk2": 120,
+    "mk3": 270,
+    "mk4": 480,
+    "mk5": 780
+  }
+
+}

@@ -1,0 +1,1262 @@
+{
+  "recipes":{
+    "standard":[
+      {
+        "name":"A.I. Limiter",
+        "machine":"Assembler",
+        "components":{
+          "Copper Sheet":5,
+          "Quickwire":20
+        },
+        "consumptionRates":{
+          "Copper Sheet":25,
+          "Quickwire":100
+        },
+        "products":{
+          "A.I. Limiter":1
+        },
+        "productionRates":{
+          "A.I. Limiter":5
+        }
+      },
+      {
+        "name":"Adaptive Control Unit",
+        "machine":"Manufacturer",
+        "components":{
+          "Automated Wiring":15,
+          "Circuit Board":10,
+          "Heavy Modular Frame":2,
+          "Computer":2
+        },
+        "consumptionRates":{
+          "Automated Wiring":7,
+          "Circuit Board":5,
+          "Heavy Modular Frame":1,
+          "Computer":1
+        },
+        "products":{
+          "Adaptive Control Unit":2
+        },
+        "productionRates":{
+          "Adaptive Control Unit":1
+        }
+      },
+      {
+        "name":"Caterium Ingot",
+        "machine":"Smelter",
+        "components":{
+          "Caterium Ore":3.0
+        },
+        "consumptionRates":{
+          "Caterium Ore":45.0
+        },
+        "products":{
+          "Caterium Ingot":1.0
+        },
+        "productionRates":{
+          "Caterium Ingot":15.0
+        }
+      },
+      {
+        "name":"Circuit Board",
+        "machine":"Assembler",
+        "components":{
+          "Copper Sheet":2.0,
+          "Plastic":4.0
+        },
+        "consumptionRates":{
+          "Copper Sheet":15.0,
+          "Plastic":30.0
+        },
+        "products":{
+          "Circuit Board":1.0
+        },
+        "productionRates":{
+          "Circuit Board":7.5
+        }
+      },
+      {
+        "name":"Computer",
+        "machine":"Manufacturer",
+        "components":{
+          "Circuit Board":10.0,
+          "Cable":9.0,
+          "Plastic":18.0,
+          "Screw":52.0
+        },
+        "consumptionRates":{
+          "Circuit Board":25.0,
+          "Cable":22.5,
+          "Plastic":45.0,
+          "Screw":130.0
+        },
+        "products":{
+          "Computer":1.0
+        },
+        "productionRates":{
+          "Computer":2.5
+        }
+      },
+      {
+        "name":"Concrete",
+        "machine":"Constructor",
+        "components":{
+          "Limestone":3.0
+        },
+        "consumptionRates":{
+          "Limestone":45.0
+        },
+        "products":{
+          "Concrete":1.0
+        },
+        "productionRates":{
+          "Concrete":15.0
+        }
+      },
+      {
+        "name":"Copper Ingot",
+        "machine":"Smelter",
+        "components":{
+          "Copper Ore":1.0
+        },
+        "consumptionRates":{
+          "Copper Ore":30.0
+        },
+        "products":{
+          "Copper Ingot":1.0
+        },
+        "productionRates":{
+          "Copper Ingot":30.0
+        }
+      },
+      {
+        "name":"Copper Sheet",
+        "machine":"Constructor",
+        "components":{
+          "Copper Ingot":2.0
+        },
+        "consumptionRates":{
+          "Copper Ingot":20.0
+        },
+        "products":{
+          "Copper Sheet":1.0
+        },
+        "productionRates":{
+          "Copper Sheet":10.0
+        }
+      },
+      {
+        "name":"Crude Oil",
+        "machine":"Refinery",
+        "components":{
+          "Packaged Oil":2.0
+        },
+        "consumptionRates":{
+          "Packaged Oil":60.0
+        },
+        "products":{
+          "Crude Oil":2.0,
+          "Empty Canister":2.0
+        },
+        "productionRates":{
+          "Crude Oil":60.0,
+          "Empty Canister":60.0
+        }
+      },
+      {
+        "name":"Crystal Oscillator",
+        "machine":"Manufacturer",
+        "components":{
+          "Quartz Crystal":36.0,
+          "Cable":28.0,
+          "Reinforced Iron Plate":5.0
+        },
+        "consumptionRates":{
+          "Quartz Crystal":18.0,
+          "Cable":14.0,
+          "Reinforced Iron Plate":2.5
+        },
+        "products":{
+          "Crystal Oscillator":2.0
+        },
+        "productionRates":{
+          "Crystal Oscillator":1.0
+        }
+      },
+      {
+        "name":"Electromagnetic Control Rod",
+        "machine":"Assembler",
+        "components":{
+          "Stator":3.0,
+          "A.I. Limiter":2.0
+        },
+        "consumptionRates":{
+          "Stator":6.0,
+          "A.I. Limiter":4.0
+        },
+        "products":{
+          "Electromagnetic Control Rod":2.0
+        },
+        "productionRates":{
+          "Electromagnetic Control Rod":4.0
+        }
+      },
+      {
+        "name":"Empty Canister",
+        "machine":"Constructor",
+        "components":{
+          "Plastic":2.0
+        },
+        "consumptionRates":{
+          "Plastic":30.0
+        },
+        "products":{
+          "Empty Canister":4.0
+        },
+        "productionRates":{
+          "Empty Canister":60.0
+        }
+      },
+      {
+        "name":"Alclad Aluminum Sheet",
+        "machine":"Assembler",
+        "components":{
+          "Aluminum Ingot":8.0,
+          "Copper Ingot":3.0
+        },
+        "consumptionRates":{
+          "Aluminum Ingot":60.0,
+          "Copper Ingot":22.5
+        },
+        "products":{
+          "Alclad Aluminum Sheet":4.0
+        },
+        "productionRates":{
+          "Alclad Aluminum Sheet":30.0
+        }
+      },
+      {
+        "name":"Encased Industrial Beam",
+        "machine":"Assembler",
+        "components":{
+          "Steel Beam":4.0,
+          "Concrete":5.0
+        },
+        "consumptionRates":{
+          "Steel Beam":24.0,
+          "Concrete":30.0
+        },
+        "products":{
+          "Encased Industrial Beam":1.0
+        },
+        "productionRates":{
+          "Encased Industrial Beam":6.0
+        }
+      },
+      {
+        "name":"Encased Uranium Cell",
+        "machine":"Assembler",
+        "components":{
+          "Uranium Pellet":40.0,
+          "Concrete":9.0
+        },
+        "consumptionRates":{
+          "Uranium Pellet":40.0,
+          "Concrete":9.0
+        },
+        "products":{
+          "Encased Uranium Cell":10.0
+        },
+        "productionRates":{
+          "Encased Uranium Cell":10.0
+        }
+      },
+      {
+        "name":"Fabric",
+        "machine":"Assembler",
+        "components":{
+          "Mycelia":1.0,
+          "Biomass":5.0
+        },
+        "consumptionRates":{
+          "Mycelia":15.0,
+          "Biomass":75.0
+        },
+        "products":{
+          "Fabric":1.0
+        },
+        "productionRates":{
+          "Fabric":15.0
+        }
+      },
+      {
+        "name":"Fuel",
+        "machine":"Refinery",
+        "components":{
+          "Crude Oil":6.0
+        },
+        "consumptionRates":{
+          "Crude Oil":60.0
+        },
+        "products":{
+          "Fuel":4.0,
+          "Polymer Resin":3.0
+        },
+        "productionRates":{
+          "Fuel":40.0,
+          "Polymer Resin":30.0
+        }
+      },
+      {
+        "name":"Heat Sink",
+        "machine":"Assembler",
+        "components":{
+          "Alclad Aluminum Sheet":8.0,
+          "Rubber":14.0
+        },
+        "consumptionRates":{
+          "Alclad Aluminum Sheet":40.0,
+          "Rubber":70.0
+        },
+        "products":{
+          "Heat Sink":2.0
+        },
+        "productionRates":{
+          "Heat Sink":10.0
+        }
+      },
+      {
+        "name":"Heavy Modular Frame",
+        "machine":"Manufacturer",
+        "components":{
+          "Modular Frame":5.0,
+          "Steel Pipe":15.0,
+          "Encased Industrial Beam":5.0,
+          "Screw":100.0
+        },
+        "consumptionRates":{
+          "Modular Frame":10.0,
+          "Steel Pipe":30.0,
+          "Encased Industrial Beam":10.0,
+          "Screw":200.0
+        },
+        "products":{
+          "Heavy Modular Frame":1.0
+        },
+        "productionRates":{
+          "Heavy Modular Frame":2.0
+        }
+      },
+      {
+        "name":"Heavy Oil Residue 1",
+        "machine":"Refinery",
+        "components":{
+          "Crude Oil":3.0
+        },
+        "consumptionRates":{
+          "Crude Oil":30.0
+        },
+        "products":{
+          "Heavy Oil Residue 1":1.0,
+          "Plastic":2.0
+        },
+        "productionRates":{
+          "Heavy Oil Residue 1":10.0,
+          "Plastic":20.0
+        }
+      },
+      {
+        "name":"High-Speed Connector",
+        "machine":"Manufacturer",
+        "components":{
+          "Quickwire":56.0,
+          "Cable":10.0,
+          "Circuit Board":1.0
+        },
+        "consumptionRates":{
+          "Quickwire":210.0,
+          "Cable":37.5,
+          "Circuit Board":3.75
+        },
+        "products":{
+          "High-Speed Connector":1.0
+        },
+        "productionRates":{
+          "High-Speed Connector":3.75
+        }
+      },
+      {
+        "name":"Iron Ingot",
+        "machine":"Smelter",
+        "components":{
+          "Iron Ore":1.0
+        },
+        "consumptionRates":{
+          "Iron Ore":30.0
+        },
+        "products":{
+          "Iron Ingot":1.0
+        },
+        "productionRates":{
+          "Iron Ingot":30.0
+        }
+      },
+      {
+        "name":"Iron Plate",
+        "machine":"Constructor",
+        "components":{
+          "Iron Ingot":3.0
+        },
+        "consumptionRates":{
+          "Iron Ingot":30.0
+        },
+        "products":{
+          "Iron Plate":2.0
+        },
+        "productionRates":{
+          "Iron Plate":20.0
+        }
+      },
+      {
+        "name":"Alumina Solution",
+        "machine":"Refinery",
+        "components":{
+          "Bauxite":7.0,
+          "Water":10.0
+        },
+        "consumptionRates":{
+          "Bauxite":70.0,
+          "Water":100.0
+        },
+        "products":{
+          "Alumina Solution":8.0,
+          "Silica":2.0
+        },
+        "productionRates":{
+          "Alumina Solution":80.0,
+          "Silica":20.0
+        }
+      },
+      {
+        "name":"Iron Rod",
+        "machine":"Constructor",
+        "components":{
+          "Iron Ingot":1.0
+        },
+        "consumptionRates":{
+          "Iron Ingot":15.0
+        },
+        "products":{
+          "Iron Rod":1.0
+        },
+        "productionRates":{
+          "Iron Rod":15.0
+        }
+      },
+      {
+        "name":"Liquid Biofuel",
+        "machine":"Refinery",
+        "components":{
+          "Solid Biofuel":6.0,
+          "Water":3.0
+        },
+        "consumptionRates":{
+          "Solid Biofuel":90.0,
+          "Water":45.0
+        },
+        "products":{
+          "Liquid Biofuel":4.0
+        },
+        "productionRates":{
+          "Liquid Biofuel":60.0
+        }
+      },
+      {
+        "name":"Modular Engine",
+        "machine":"Manufacturer",
+        "components":{
+          "Motor":2.0,
+          "Rubber":15.0,
+          "Smart Plating":2.0
+        },
+        "consumptionRates":{
+          "Motor":2.0,
+          "Rubber":15.0,
+          "Smart Plating":2.0
+        },
+        "products":{
+          "Modular Engine":1.0
+        },
+        "productionRates":{
+          "Modular Engine":1.0
+        }
+      },
+      {
+        "name":"Modular Frame",
+        "machine":"Assembler",
+        "components":{
+          "Reinforced Iron Plate":3.0,
+          "Iron Rod":12.0
+        },
+        "consumptionRates":{
+          "Reinforced Iron Plate":3.0,
+          "Iron Rod":12.0
+        },
+        "products":{
+          "Modular Frame":2.0,
+          "":0.0
+        },
+        "productionRates":{
+          "Modular Frame":2.0,
+          "":0.0
+        }
+      },
+      {
+        "name":"Motor",
+        "machine":"Assembler",
+        "components":{
+          "Rotor":2.0,
+          "Stator":2.0
+        },
+        "consumptionRates":{
+          "Rotor":10.0,
+          "Stator":10.0
+        },
+        "products":{
+          "Motor":1.0
+        },
+        "productionRates":{
+          "Motor":5.0
+        }
+      },
+      {
+        "name":"Nobelisk",
+        "machine":"Assembler",
+        "components":{
+          "Black Powder":5.0,
+          "Steel Pipe":10.0
+        },
+        "consumptionRates":{
+          "Black Powder":15.0,
+          "Steel Pipe":30.0
+        },
+        "products":{
+          "Nobelisk":1.0
+        },
+        "productionRates":{
+          "Nobelisk":3.0
+        }
+      },
+      {
+        "name":"Nuclear Fuel Rod",
+        "machine":"Manufacturer",
+        "components":{
+          "Encased Uranium Cell":25.0,
+          "Encased Industrial Beam":3.0,
+          "Electromagnetic Control Rod":5.0
+        },
+        "consumptionRates":{
+          "Encased Uranium Cell":10.0,
+          "Encased Industrial Beam":1.2,
+          "Electromagnetic Control Rod":2.0
+        },
+        "products":{
+          "Nuclear Fuel Rod":1.0
+        },
+        "productionRates":{
+          "Nuclear Fuel Rod":0.4
+        }
+      },
+      {
+        "name":"Packaged Fuel",
+        "machine":"Refinery",
+        "components":{
+          "Fuel":2.0,
+          "Empty Canister":2.0
+        },
+        "consumptionRates":{
+          "Fuel":40.0,
+          "Empty Canister":40.0
+        },
+        "products":{
+          "Packaged Fuel":2.0
+        },
+        "productionRates":{
+          "Packaged Fuel":40.0
+        }
+      },
+      {
+        "name":"Packaged Heavy Oil Residue",
+        "machine":"Refinery",
+        "components":{
+          "Heavy Oil Residue":2.0,
+          "Empty Canister":2.0
+        },
+        "consumptionRates":{
+          "Heavy Oil Residue":30.0,
+          "Empty Canister":30.0
+        },
+        "products":{
+          "Packaged Heavy Oil Residue":2.0
+        },
+        "productionRates":{
+          "Packaged Heavy Oil Residue":30.0
+        }
+      },
+      {
+        "name":"Packaged Liquid Biofuel",
+        "machine":"Refinery",
+        "components":{
+          "Liquid Biofuel":2.0,
+          "Empty Canister":2.0
+        },
+        "consumptionRates":{
+          "Liquid Biofuel":40.0,
+          "Empty Canister":40.0
+        },
+        "products":{
+          "Packaged Liquid Biofuel":2.0
+        },
+        "productionRates":{
+          "Packaged Liquid Biofuel":40.0
+        }
+      },
+      {
+        "name":"Aluminum Ingot",
+        "machine":"Foundry",
+        "components":{
+          "Aluminum Scrap":12.0,
+          "Silica":7.0
+        },
+        "consumptionRates":{
+          "Aluminum Scrap":240.0,
+          "Silica":140.0
+        },
+        "products":{
+          "Aluminum Ingot":4.0
+        },
+        "productionRates":{
+          "Aluminum Ingot":80.0
+        }
+      },
+      {
+        "name":"Packaged Oil",
+        "machine":"Refinery",
+        "components":{
+          "Crude Oil":2.0,
+          "Empty Canister":2.0
+        },
+        "consumptionRates":{
+          "Crude Oil":30.0,
+          "Empty Canister":30.0
+        },
+        "products":{
+          "Packaged Oil":2.0
+        },
+        "productionRates":{
+          "Packaged Oil":30.0
+        }
+      },
+      {
+        "name":"Packaged Turbofuel",
+        "machine":"Refinery",
+        "components":{
+          "Turbofuel":2.0,
+          "Empty Canister":2.0
+        },
+        "consumptionRates":{
+          "Turbofuel":20.0,
+          "Empty Canister":20.0
+        },
+        "products":{
+          "Packaged Turbofuel":2.0
+        },
+        "productionRates":{
+          "Packaged Turbofuel":20.0
+        }
+      },
+      {
+        "name":"Packaged Water",
+        "machine":"Refinery",
+        "components":{
+          "Water":2.0,
+          "Empty Canister":2.0
+        },
+        "consumptionRates":{
+          "Water":60.0,
+          "Empty Canister":60.0
+        },
+        "products":{
+          "Packaged Water":2.0
+        },
+        "productionRates":{
+          "Packaged Water":60.0
+        }
+      },
+      {
+        "name":"Petroleum Coke",
+        "machine":"Refinery",
+        "components":{
+          "Heavy Oil Residue":4.0
+        },
+        "consumptionRates":{
+          "Heavy Oil Residue":40.0
+        },
+        "products":{
+          "Petroleum Coke":12.0
+        },
+        "productionRates":{
+          "Petroleum Coke":120.0
+        }
+      },
+      {
+        "name":"Plastic",
+        "machine":"Refinery",
+        "components":{
+          "Crude Oil":3.0
+        },
+        "consumptionRates":{
+          "Crude Oil":30.0
+        },
+        "products":{
+          "Plastic":2.0,
+          "Heavy Oil Residue":1.0
+        },
+        "productionRates":{
+          "Plastic":20.0,
+          "Heavy Oil Residue":10.0
+        }
+      },
+      {
+        "name":"Residual Plastic",
+        "machine":"Refinery",
+        "components":{
+          "Polymer Resin":6.0,
+          "Water":2.0
+        },
+        "consumptionRates":{
+          "Polymer Resin":60.0,
+          "Water":20.0
+        },
+        "products":{
+          "Residual Plastic":2.0
+        },
+        "productionRates":{
+          "Residual Plastic":20.0
+        }
+      },
+      {
+        "name":"Polymer Resin",
+        "machine":"Refinery",
+        "components":{
+          "Crude Oil":6.0
+        },
+        "consumptionRates":{
+          "Crude Oil":60.0
+        },
+        "products":{
+          "Polymer Resin":3.0,
+          "Fuel":4.0
+        },
+        "productionRates":{
+          "Polymer Resin":30.0,
+          "Fuel":40.0
+        }
+      },
+      {
+        "name":"Quartz Crystal",
+        "machine":"Constructor",
+        "components":{
+          "Raw Quartz":5.0
+        },
+        "consumptionRates":{
+          "Raw Quartz":37.5
+        },
+        "products":{
+          "Quartz Crystal":3.0
+        },
+        "productionRates":{
+          "Quartz Crystal":22.5
+        }
+      },
+      {
+        "name":"Quickwire",
+        "machine":"Constructor",
+        "components":{
+          "Caterium Ingot":1.0
+        },
+        "consumptionRates":{
+          "Caterium Ingot":12.0
+        },
+        "products":{
+          "Quickwire":5.0
+        },
+        "productionRates":{
+          "Quickwire":60.0
+        }
+      },
+      {
+        "name":"Radio Control Unit",
+        "machine":"Manufacturer",
+        "components":{
+          "Heat Sink":4.0,
+          "Rubber":16.0,
+          "Crystal Oscillator":1.0,
+          "Computer":1.0
+        },
+        "consumptionRates":{
+          "Heat Sink":10.0,
+          "Rubber":40.0,
+          "Crystal Oscillator":2.5,
+          "Computer":2.5
+        },
+        "products":{
+          "Radio Control Unit":1.0
+        },
+        "productionRates":{
+          "Radio Control Unit":2.5
+        }
+      },
+      {
+        "name":"Aluminum Scrap",
+        "machine":"Refinery",
+        "components":{
+          "Alumina Solution":4.0,
+          "Petroleum Coke":1.0
+        },
+        "consumptionRates":{
+          "Alumina Solution":240.0,
+          "Petroleum Coke":60.0
+        },
+        "products":{
+          "Aluminum Scrap":6.0,
+          "Water":1.0
+        },
+        "productionRates":{
+          "Aluminum Scrap":360.0,
+          "Water":60.0
+        }
+      },
+      {
+        "name":"Reinforced Iron Plate",
+        "machine":"Assembler",
+        "components":{
+          "Iron Plate":6.0,
+          "Screw":12.0
+        },
+        "consumptionRates":{
+          "Iron Plate":30.0,
+          "Screw":60.0
+        },
+        "products":{
+          "Reinforced Iron Plate":1.0
+        },
+        "productionRates":{
+          "Reinforced Iron Plate":5.0
+        }
+      },
+      {
+        "name":"Rifle Cartridge",
+        "machine":"Manufacturer",
+        "components":{
+          "Beacon":1.0,
+          "Steel Pipe":10.0,
+          "Black Powder":10.0,
+          "Rubber":10.0
+        },
+        "consumptionRates":{
+          "Beacon":3.0,
+          "Steel Pipe":30.0,
+          "Black Powder":30.0,
+          "Rubber":30.0
+        },
+        "products":{
+          "Rifle Cartridge":5.0
+        },
+        "productionRates":{
+          "Rifle Cartridge":15.0
+        }
+      },
+      {
+        "name":"Rotor",
+        "machine":"Assembler",
+        "components":{
+          "Iron Rod":5.0,
+          "Screw":25.0
+        },
+        "consumptionRates":{
+          "Iron Rod":20.0,
+          "Screw":100.0
+        },
+        "products":{
+          "Rotor":1.0
+        },
+        "productionRates":{
+          "Rotor":4.0
+        }
+      },
+      {
+        "name":"Rubber",
+        "machine":"Refinery",
+        "components":{
+          "Crude Oil":3.0
+        },
+        "consumptionRates":{
+          "Crude Oil":30.0
+        },
+        "products":{
+          "Rubber":2.0,
+          "Heavy Oil Residue":2.0
+        },
+        "productionRates":{
+          "Rubber":20.0,
+          "Heavy Oil Residue":20.0
+        }
+      },
+      {
+        "name":"Screw",
+        "machine":"Constructor",
+        "components":{
+          "Iron Rod":1.0
+        },
+        "consumptionRates":{
+          "Iron Rod":10.0
+        },
+        "products":{
+          "Screw":4.0
+        },
+        "productionRates":{
+          "Screw":40.0
+        }
+      },
+      {
+        "name":"Silica",
+        "machine":"Constructor",
+        "components":{
+          "Raw Quartz":3.0
+        },
+        "consumptionRates":{
+          "Raw Quartz":22.5
+        },
+        "products":{
+          "Silica":5.0
+        },
+        "productionRates":{
+          "Silica":37.5
+        }
+      },
+      {
+        "name":"Smart Plating",
+        "machine":"Assembler",
+        "components":{
+          "Reinforced Iron Plate":1.0,
+          "Rotor":1.0
+        },
+        "consumptionRates":{
+          "Reinforced Iron Plate":2.0,
+          "Rotor":2.0
+        },
+        "products":{
+          "Smart Plating":1.0
+        },
+        "productionRates":{
+          "Smart Plating":2.0
+        }
+      },
+      {
+        "name":"Stator",
+        "machine":"Assembler",
+        "components":{
+          "Steel Pipe":3.0,
+          "Wire":8.0
+        },
+        "consumptionRates":{
+          "Steel Pipe":15.0,
+          "Wire":40.0
+        },
+        "products":{
+          "Stator":1.0
+        },
+        "productionRates":{
+          "Stator":5.0
+        }
+      },
+      {
+        "name":"Steel Beam",
+        "machine":"Constructor",
+        "components":{
+          "Steel Ingot":4.0
+        },
+        "consumptionRates":{
+          "Steel Ingot":60.0
+        },
+        "products":{
+          "Steel Beam":1.0
+        },
+        "productionRates":{
+          "Steel Beam":15.0
+        }
+      },
+      {
+        "name":"Steel Ingot",
+        "machine":"Foundry",
+        "components":{
+          "Iron Ore":3.0,
+          "Coal":3.0
+        },
+        "consumptionRates":{
+          "Iron Ore":45.0,
+          "Coal":45.0
+        },
+        "products":{
+          "Steel Ingot":3.0
+        },
+        "productionRates":{
+          "Steel Ingot":45.0
+        }
+      },
+      {
+        "name":"Automated Wiring",
+        "machine":"Assembler",
+        "components":{
+          "Stator":1.0,
+          "Cable":20.0
+        },
+        "consumptionRates":{
+          "Stator":2.5,
+          "Cable":50.0
+        },
+        "products":{
+          "Automated Wiring":1.0
+        },
+        "productionRates":{
+          "Automated Wiring":2.5
+        }
+      },
+      {
+        "name":"Steel Pipe",
+        "machine":"Constructor",
+        "components":{
+          "Steel Ingot":3.0
+        },
+        "consumptionRates":{
+          "Steel Ingot":30.0
+        },
+        "products":{
+          "Steel Pipe":2.0
+        },
+        "productionRates":{
+          "Steel Pipe":20.0
+        }
+      },
+      {
+        "name":"Sulfuric Acid",
+        "machine":"Refinery",
+        "components":{
+          "Sulfur":5.0,
+          "Water":5.0
+        },
+        "consumptionRates":{
+          "Sulfur":50.0,
+          "Water":50.0
+        },
+        "products":{
+          "Sulfuric Acid":10.0
+        },
+        "productionRates":{
+          "Sulfuric Acid":100.0
+        }
+      },
+      {
+        "name":"Supercomputer",
+        "machine":"Manufacturer",
+        "components":{
+          "Computer":2.0,
+          "A.I. Limiter":2.0,
+          "High-Speed Connector":3.0,
+          "Plastic":28.0
+        },
+        "consumptionRates":{
+          "Computer":3.75,
+          "A.I. Limiter":3.75,
+          "High-Speed Connector":5.625,
+          "Plastic":52.5
+        },
+        "products":{
+          "Supercomputer":1.0
+        },
+        "productionRates":{
+          "Supercomputer":1.875
+        }
+      },
+      {
+        "name":"Turbo Motor",
+        "machine":"Manufacturer",
+        "components":{
+          "Heat Sink":4.0,
+          "Radio Control Unit":2.0,
+          "Motor":4.0,
+          "Rubber":24.0
+        },
+        "consumptionRates":{
+          "Heat Sink":7.5,
+          "Radio Control Unit":3.75,
+          "Motor":7.5,
+          "Rubber":45.0
+        },
+        "products":{
+          "Turbo Motor":1.0
+        },
+        "productionRates":{
+          "Turbo Motor":1.875
+        }
+      },
+      {
+        "name":"Unpackaged Turbofuel",
+        "machine":"Refinery",
+        "components":{
+          "Packaged Turbofuel":2.0
+        },
+        "consumptionRates":{
+          "Packaged Turbofuel":20.0
+        },
+        "products":{
+          "Unpackaged Turbofuel":2.0,
+          "Empty Canister":2.0
+        },
+        "productionRates":{
+          "Unpackaged Turbofuel":20.0,
+          "Empty Canister":20.0
+        }
+      },
+      {
+        "name":"Uranium Pellet",
+        "machine":"Refinery",
+        "components":{
+          "Uranium":5.0,
+          "Sulfuric Acid":8.0
+        },
+        "consumptionRates":{
+          "Uranium":50.0,
+          "Sulfuric Acid":80.0
+        },
+        "products":{
+          "Uranium Pellet":5.0,
+          "Sulfuric Acid":2.0
+        },
+        "productionRates":{
+          "Uranium Pellet":50.0,
+          "Sulfuric Acid":20.0
+        }
+      },
+      {
+        "name":"Versatile Framework",
+        "machine":"Assembler",
+        "components":{
+          "Modular Frame":1.0,
+          "Steel Beam":12.0
+        },
+        "consumptionRates":{
+          "Modular Frame":2.5,
+          "Steel Beam":30.0
+        },
+        "products":{
+          "Versatile Framework":2.0
+        },
+        "productionRates":{
+          "Versatile Framework":5.0
+        }
+      },
+      {
+        "name":"Unpackaged Water",
+        "machine":"Refinery",
+        "components":{
+          "Packaged Water":2.0
+        },
+        "consumptionRates":{
+          "Packaged Water":120.0
+        },
+        "products":{
+          "Unpackaged Water":2.0,
+          "Empty Canister":2.0
+        },
+        "productionRates":{
+          "Unpackaged Water":120.0,
+          "Empty Canister":120.0
+        }
+      },
+      {
+        "name":"Wire",
+        "machine":"Constructor",
+        "components":{
+          "Copper Ingot":1.0
+        },
+        "consumptionRates":{
+          "Copper Ingot":12.0
+        },
+        "products":{
+          "Wire":2.0
+        },
+        "productionRates":{
+          "Wire":30.0
+        }
+      },
+      {
+        "name":"Battery",
+        "machine":"Manufacturer",
+        "components":{
+          "Alclad Aluminum Sheet":8.0,
+          "Wire":16.0,
+          "Sulfur":20.0,
+          "Plastic":8.0
+        },
+        "consumptionRates":{
+          "Alclad Aluminum Sheet":15.0,
+          "Wire":30.0,
+          "Sulfur":37.5,
+          "Plastic":15.0
+        },
+        "products":{
+          "Battery":3.0
+        },
+        "productionRates":{
+          "Battery":5.625
+        }
+      },
+      {
+        "name":"Black Powder",
+        "machine":"Assembler",
+        "components":{
+          "Coal":1.0,
+          "Sulfur":2.0
+        },
+        "consumptionRates":{
+          "Coal":7.5,
+          "Sulfur":15.0
+        },
+        "products":{
+          "Black Powder":1.0
+        },
+        "productionRates":{
+          "Black Powder":7.5
+        }
+      },
+      {
+        "name":"Cable",
+        "machine":"Constructor",
+        "components":{
+          "Wire":2.0
+        },
+        "consumptionRates":{
+          "Wire":60.0
+        },
+        "products":{
+          "Cable":1.0
+        },
+        "productionRates":{
+          "Cable":30.0
+        }
+      }
+    ]
+  }
+}

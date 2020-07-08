@@ -1,0 +1,16 @@
+{
+  "name":"Petroleum Coke",
+  "machine":"Refinery",
+  "components":{
+    "Heavy Oil Residue":4.0
+  },
+  "consumptionRates":{
+    "Heavy Oil Residue":40.0
+  },
+  "products":{
+    "Petroleum Coke":12.0
+  },
+  "productionRates":{
+    "Petroleum Coke":120.0
+  }
+}

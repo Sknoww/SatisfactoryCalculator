@@ -1,0 +1,20 @@
+{
+  "name":"Modular Engine",
+  "machine":"Manufacturer",
+  "components":{
+    "Motor":2.0,
+    "Rubber":15.0,
+    "Smart Plating":2.0
+  },
+  "consumptionRates":{
+    "Motor":2.0,
+    "Rubber":15.0,
+    "Smart Plating":2.0
+  },
+  "products":{
+    "Modular Engine":1.0
+  },
+  "productionRates":{
+    "Modular Engine":1.0
+  }
+}

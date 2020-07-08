@@ -1,0 +1,16 @@
+{
+  "name":"Steel Pipe",
+  "machine":"Constructor",
+  "components":{
+    "Steel Ingot":3.0
+  },
+  "consumptionRates":{
+    "Steel Ingot":30.0
+  },
+  "products":{
+    "Steel Pipe":2.0
+  },
+  "productionRates":{
+    "Steel Pipe":20.0
+  }
+}

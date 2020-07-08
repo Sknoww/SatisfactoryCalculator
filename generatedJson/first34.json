@@ -1,0 +1,18 @@
+{
+  "name":"Motor",
+  "machine":"Assembler",
+  "components":{
+    "Rotor":2.0,
+    "Stator":2.0
+  },
+  "consumptionRates":{
+    "Rotor":10.0,
+    "Stator":10.0
+  },
+  "products":{
+    "Motor":1.0
+  },
+  "productionRates":{
+    "Motor":5.0
+  }
+}

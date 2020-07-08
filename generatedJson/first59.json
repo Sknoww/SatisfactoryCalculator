@@ -1,0 +1,18 @@
+{
+  "name":"Steel Ingot",
+  "machine":"Foundry",
+  "components":{
+    "Iron Ore":3.0,
+    "Coal":3.0
+  },
+  "consumptionRates":{
+    "Iron Ore":45.0,
+    "Coal":45.0
+  },
+  "products":{
+    "Steel Ingot":3.0
+  },
+  "productionRates":{
+    "Steel Ingot":45.0
+  }
+}

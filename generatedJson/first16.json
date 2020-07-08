@@ -1,0 +1,18 @@
+{
+  "name":"Crude Oil",
+  "machine":"Refinery",
+  "components":{
+    "Packaged Oil":2.0
+  },
+  "consumptionRates":{
+    "Packaged Oil":60.0
+  },
+  "products":{
+    "Crude Oil":2.0,
+    "Empty Canister":2.0
+  },
+  "productionRates":{
+    "Crude Oil":60.0,
+    "Empty Canister":60.0
+  }
+}

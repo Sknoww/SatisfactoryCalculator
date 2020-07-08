@@ -1,0 +1,22 @@
+{
+  "name":"Adaptive Control Unit",
+  "machine":"Manufacturer",
+  "components":{
+    "Automated Wiring":15,
+    "Circuit Board":10,
+    "Heavy Modular Frame":2,
+    "Computer":2
+  },
+  "consumptionRates":{
+    "Automated Wiring":7,
+    "Circuit Board":5,
+    "Heavy Modular Frame":1,
+    "Computer":1
+  },
+  "products":{
+    "Adaptive Control Unit":2
+  },
+  "productionRates":{
+    "Adaptive Control Unit":1
+  }
+}

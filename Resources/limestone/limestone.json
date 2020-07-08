@@ -1,0 +1,49 @@
+{
+  "name": "limestone",
+  "outputs": ["concrete"],
+  "recipes": {
+    "concrete": {
+      "building": "constructor",
+      "alternate": false,
+      "consumption": {
+        "limestone": 45
+      },
+      "production": {
+        "concrete": 15
+      }
+    },
+    "rubber concrete": {
+      "building": "assembler",
+      "alternate": true,
+      "consumption": {
+        "limestone": 50,
+        "rubber": 10
+      },
+      "production": {
+        "concrete": 45
+      }
+    },
+    "wet concrete": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": {
+        "limestone": 120,
+        "water": 100
+      },
+      "production": {
+        "concrete": 80
+      }
+    },
+    "fine concrete": {
+      "building": "assembler",
+      "alternate": true,
+      "consumption": {
+        "limestone": 30,
+        "silica": 7.5
+      },
+      "production": {
+        "concrete": 25
+      }
+    }
+  }
+}

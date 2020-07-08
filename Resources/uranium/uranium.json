@@ -1,0 +1,18 @@
+{
+  "name": "uranium",
+  "outputs": ["uranium pellet", "sulfuric acid"],
+  "recipes": {
+    "uranium pellets": {
+      "building": "refinery",
+      "alternate": false,
+      "consumption": {
+        "uranium": 50,
+        "sulfuric acid": 80
+      },
+      "production": {
+        "uranium pellet": 50,
+        "sulfuric acid": 20
+      }
+    }
+  }
+}

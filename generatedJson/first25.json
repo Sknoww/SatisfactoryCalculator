@@ -1,0 +1,22 @@
+{
+  "name":"Heavy Modular Frame",
+  "machine":"Manufacturer",
+  "components":{
+    "Modular Frame":5.0,
+    "Steel Pipe":15.0,
+    "Encased Industrial Beam":5.0,
+    "Screw":100.0
+  },
+  "consumptionRates":{
+    "Modular Frame":10.0,
+    "Steel Pipe":30.0,
+    "Encased Industrial Beam":10.0,
+    "Screw":200.0
+  },
+  "products":{
+    "Heavy Modular Frame":1.0
+  },
+  "productionRates":{
+    "Heavy Modular Frame":2.0
+  }
+}

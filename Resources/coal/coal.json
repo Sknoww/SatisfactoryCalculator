@@ -1,0 +1,35 @@
+{
+  "name": "coal",
+  "uses": {
+    "steel ingot": {
+      "building": "foundry",
+      "alternate": false,
+      "consumption": 45
+    },
+    "black powder": {
+      "building": "assembler",
+      "alternate": false,
+      "consumption": 7.5
+    },
+    "gas filter": {
+      "building": "manufacturer",
+      "alternate": false,
+      "consumption": 37.5
+    },
+    "compacted coal": {
+      "building": "assembler",
+      "alternate": true,
+      "consumption": 25
+    },
+    "solid steel ingot": {
+      "building": "foundry",
+      "alternate": true,
+      "consumption": 40
+    },
+    "electrode aluminum scrap": {
+      "building": "refinery",
+      "alternate": true,
+      "consumption": 30
+    }
+  }
+}
